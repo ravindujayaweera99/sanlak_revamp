@@ -11,7 +11,7 @@ const Service = (props) => {
         alt=""
         className="hidden md:block md:aspect-square md:w-[40vh] md:h-[35vh]"
       />
-      <p className="block p-10 opacity-1 text-left rounded-none md:p-0 md:hidden md:absolute md:top-[50%] bg-blue md:bg-opacity-80 text-white md:rounded-md md:px-10 md:py-5 md:left-0 md:group-hover:block">
+      <p className="block p-10 opacity-1 text-left rounded-none md:p-0 md:hidden md:absolute md:top-[50%] md:w-full bg-blue md:bg-opacity-80 text-white md:rounded-md md:px-10 md:py-5 md:left-0 md:group-hover:block">
         {props.desc}
       </p>
     </div>
