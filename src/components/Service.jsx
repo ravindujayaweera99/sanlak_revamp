@@ -3,7 +3,7 @@ import React from "react";
 const Service = (props) => {
   return (
     <div className="group w-[80vw] md:w-auto md:relative">
-      <h1 className="text-center bg-orange text-sm md:text-lg font-bold md:w-[40vh]">
+      <h1 className="text-center bg-orange text-sm md:text-md font-bold md:w-[40vh]">
         {props.service}
       </h1>
       <img

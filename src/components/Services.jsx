@@ -13,16 +13,18 @@ const Services = () => {
       <motion.div
         className="md:container md:flex md:flex-row mx-auto justify-center items-center gap-10 md:gap-32 bg-white"
         initial={{
-          x: "-100%",
+          y: "100%",
+          opacity: 0,
         }}
         whileInView={{
-          x: "0%",
+          y: "0%",
+          opacity: 1,
         }}
-        viewPort={{
+        viewport={{
           margin: "-500px",
           once: true,
         }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.5 }}
       >
         <div className="flex flex-col justify-between items-center gap-10 md:gap-12 mt-10 md:mt-0">
           <Service
