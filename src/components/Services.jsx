@@ -11,7 +11,7 @@ const Services = () => {
     <div className="h-auto mt-5 md:h-screen flex flex-col md:justify-center md:items-center md:mt-0">
       <h1 className="text-center text-3xl md:text-5xl">Our Services</h1>
       <motion.div
-        className="md:container md:flex md:flex-row mx-auto justify-center items-center gap-10 md:gap-32 bg-white"
+        className="md:container md:flex md:flex-row justify-center items-center gap-10 md:gap-16 bg-white"
         initial={{
           y: "100%",
           opacity: 0,
@@ -21,10 +21,10 @@ const Services = () => {
           opacity: 1,
         }}
         viewport={{
-          margin: "-500px",
+          margin: "10px",
           once: true,
         }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 1 }}
       >
         <div className="flex flex-col justify-between items-center gap-10 md:gap-12 mt-10 md:mt-0">
           <Service

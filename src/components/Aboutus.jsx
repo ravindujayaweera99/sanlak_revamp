@@ -18,10 +18,10 @@ const Aboutus = () => {
             opacity: 1,
           }}
           viewport={{
-            margin: "-500px",
+            margin: "-100px",
             once: true,
           }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1 }}
         >
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           Voluptatibus, ullam debitis. Atque, doloribus! Voluptatibus, unde
